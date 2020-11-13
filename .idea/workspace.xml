@@ -19,11 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b421593d-536a-4c94-8725-70935841d4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b421593d-536a-4c94-8725-70935841d4dd" name="Default Changelist" comment="Static Stock lookup working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
     </list>
@@ -89,8 +98,16 @@
       <workItem from="1605028244769" duration="5255000" />
       <workItem from="1605109618678" duration="602000" />
       <workItem from="1605212652227" duration="222000" />
-      <workItem from="1605234160562" duration="1998000" />
+      <workItem from="1605234160562" duration="3351000" />
     </task>
+    <task id="LOCAL-00001" summary="Static Stock lookup working">
+      <created>1605236779172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605236779172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Static Stock lookup working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static Stock lookup working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1605028031658">
