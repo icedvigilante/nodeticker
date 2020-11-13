@@ -11,22 +11,24 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 // Configure API
-function call_api() {
+function call_api(finishedAPI) {
     request('https://cloud.iexapis.com/stable/stock/bsrc/quote?token=pk_d1bc1412c1f44ab8acd06840ad3f0e85', { json: true}, (err, res, body) => {
         if (err) { return console.log(err);}
         if(res.statusCode === 200){
             // console.log(body);
-            return body
-        };
+            finishedAPI(body)
+        }
     });
 }
 
 
 app.get('/', function (req,res) {
-    const api = call_api();
-    res.render('home', {
-        stock: api
+    call_api(function(doneAPI){
+        res.render('home', {
+            stock: doneAPI
+        });
     });
+
 });
 
 app.get('/about', (req, res) => {
